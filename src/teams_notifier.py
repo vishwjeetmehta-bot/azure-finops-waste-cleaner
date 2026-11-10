@@ -1,5 +1,6 @@
 import requests
 
+
 def send_finops_alert(webhook_url: str, disks: list, ips: list, monthly_savings: float):
     payload = {
         "@type": "MessageCard",

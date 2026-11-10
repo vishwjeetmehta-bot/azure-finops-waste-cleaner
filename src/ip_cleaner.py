@@ -16,3 +16,4 @@ def scan_idle_public_ips(network_client):
 
     total_waste = len(idle) * idle_ip_cost
     return idle, round(total_waste, 2)
+

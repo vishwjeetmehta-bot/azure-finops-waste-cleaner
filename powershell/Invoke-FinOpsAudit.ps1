@@ -36,3 +36,4 @@ foreach ($ip in $idleIps) {
 }
 
 Write-Host "=== Audit Completed Successfully ===" -ForegroundColor Green
+

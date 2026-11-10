@@ -21,3 +21,4 @@ def scan_unattached_disks(compute_client):
             })
 
     return orphaned, round(total_waste, 2)
+

@@ -14,6 +14,7 @@ from teams_notifier import send_finops_alert
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
+
 def run_finops_audit():
     subscription_id = os.getenv("AZURE_SUBSCRIPTION_ID")
     if not subscription_id:
@@ -43,6 +44,7 @@ def run_finops_audit():
             ips=idle_ips,
             monthly_savings=total_estimated_monthly_savings
         )
+
 
 if __name__ == "__main__":
     run_finops_audit()

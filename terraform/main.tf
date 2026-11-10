@@ -56,3 +56,4 @@ resource "azurerm_linux_function_app" "finops_function" {
     type = "SystemAssigned"
   }
 }
+
